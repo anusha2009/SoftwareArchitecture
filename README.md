@@ -1,6 +1,6 @@
 # SoftwareArchitecture - ChatBot integrated with Llama2
 
-Trello board https://trello.com/b/hwGXrUpZ/red-hot-chili-paprika
+**Trello board** https://trello.com/b/hwGXrUpZ/red-hot-chili-paprika
 
 In this project, we were asked to improve the user experience during the
 Street Science days in L’Aquila. The goal is to expand the capabilities of
@@ -23,11 +23,11 @@ experience by allowing them to access the services offered during the Street
 Science days in an easier and more intuitive way, through use of a UI to
 exchange messages with the language model.
 
-User Interface:
+**User Interface:**
 • Description: The user interface (UI) serves as the primary interaction point between users and the system. It encompasses the design, layout, and functionality of the graphical interface through which users interact with the application.
 • Implementation Details: We used React framework to develop a simple chatbot user interface where the user can easily input a natural lan- guage text. The chatbot then calls the API to fetch the identified user goals and displays it to the end user.
 
-LLM Model:
+**LLM Model:**
 • Description: The LLM (Large Language Model) serves as the core component of the system, responsible for identifying goals based on given prompts and context. It leverages advanced natural language processing techniques to understand the input.
 • Implementation Details:
 1. The two main tasks here were to identify the functions from the natural language text of the user and to identify the relationship between these functions.
@@ -38,7 +38,7 @@ LLM Model:
 
 
 
-Grammar generation:
+**Grammar generation:**
 • Description: Grammar generation involves the generation of syntac- tically correct and contextually relevant grammar by the system in accordance with MiLA4U specifications.
 • Implementation details: We parsed the output of the LLM model to convert into a format of the grammar specified in MiLA4U
 
